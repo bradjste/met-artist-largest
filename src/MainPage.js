@@ -1,4 +1,4 @@
-const MainPage = {
+export default {
     data() {
         return {
             apiResults: [],

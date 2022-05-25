@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artists' Largest</title>
     <script src="https://unpkg.com/vue"></script>
-    <script type="module" src="./src/MainPage.js"></script>
   </head>
   <body>
     <div id="app"></div>
-    <script>
+    <script type="module">
+      import MainPage from "./src/MainPage.js"
+
       Vue.createApp({
         components: {
           'MainPage': MainPage
