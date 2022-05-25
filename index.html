@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artists' Largest</title>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="./src/MainPage.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      Vue.createApp({
+        components: {
+          'MainPage': MainPage
+        },
+        template: `
+          <MainPage></MainPage>
+        `
+      }).mount("#app")
+    </script>
+  </body>
+</html>
